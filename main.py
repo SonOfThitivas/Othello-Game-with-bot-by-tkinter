@@ -69,6 +69,7 @@ class StartUp:
             self.lb.config(text="เลือกระดับความยากของบอทตัวแรก Player 2 (black)")
         elif i == 2:
             self.level_bot_2 = "easy"
+            self.bot_window.destroy()   
             self.level_bot_wn.destroy()
             self.window.destroy()
             
@@ -83,6 +84,7 @@ class StartUp:
             self.lb.config(text="เลือกระดับความยากของบอทตัวแรก Player 2 (black)")
         elif i == 2:
             self.level_bot_2 = "normal"
+            self.bot_window.destroy()   
             self.level_bot_wn.destroy()
             self.window.destroy()
             
@@ -97,6 +99,7 @@ class StartUp:
             self.lb.config(text="เลือกระดับความยากของบอทตัวแรก Player 2 (black)")
         elif i == 2:
             self.level_bot_2 = "hard"
+            self.bot_window.destroy()   
             self.level_bot_wn.destroy()
             self.window.destroy()
             
